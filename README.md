@@ -15,7 +15,15 @@ Tendo em vista a amplitude do assunto, esse artigo visa dar ênfase apenas no se
 
 
 
+Links de estudo e DataSet:
 
+* [Dados Desbalanceados](https://sigmoidal.ai/como-lidar-com-dados-desbalanceados/)
+
+* [Problemas de Viés e Desbalanceamento de Amostras na Ciência de Dados](https://letscode-academy.com/blog/problemas-de-vies-e-desbalanceamento-de-amostras-na-ciencia-de-dados)
+
+* [Dataset: bank.zip](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+
+* [DataSet: creditcard.csv](https://www.dropbox.com/s/b44o3t3ehmnx2b7/creditcard.csv?dl=1)
 
 
 
