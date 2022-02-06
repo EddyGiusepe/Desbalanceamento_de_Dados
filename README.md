@@ -43,8 +43,9 @@ De forma simples, essa técnica visa _remover_ as amostras da classe majoritári
 
 * **Random Undersampling:** A escolha dos dados da classe majoritária é feita de forma aleatória.
 
-* **NearMiss:** Elimina-se as amostras "mais próximas" (ou que menos diferem) entre si, de modo a maximizar a variabilidade entre as classes e, também, entre os dados que compõem a própria classe (majoritária). Esse processo é ilustrado pela figura abaixo.
+* **NearMiss:** Elimina-se as amostras "mais próximas" (ou que menos diferem) entre si, de modo a maximizar a variabilidade entre as classes e, também, entre os dados que compõem a própria classe (majoritária). Esse processo é ilustrado pela figura abaixo (para mais detalhes [click aqui](https://dev.to/charfaouiyounes/resampling-to-properly-handle-imbalanced-datasets-in-machine-learning-4anb)).
 
+![image](https://user-images.githubusercontent.com/69597971/152694643-e4fc798e-21be-4265-8bdc-987137d275ee.png)
 
 
 
