@@ -11,6 +11,23 @@ O problema de viés é amplamente discutido na área de Ciência de Dados, visto
 
 Tendo em vista a amplitude do assunto, esse artigo visa dar ênfase apenas no segundo tipo de viés, ou seja, aquele que pode estar presente no momento da criação do nosso modelo de Machine Learning (ML).
 
+## Entendendo o desbalaceamento de Amostras
+
+Como apresentado anteriormente, o viés contido na implementação de modelos está associado ao desbalanceamento das amostras dos Dados durante o processo de treinamento do modelo. 
+
+### Mas o que seria essa tal "desbalanceamento"?
+
+Imagine que você deseja criar um modelo de ML capaz de identificar, por meio de um conjunto de informações de e-mails, se um e-mail específico se caracteriza como um spam ou não. É bem provável que no seu conjunto de dados de treinamento haja um número muito maior de amostras de e-mails que não são spam, do que amostras que representam em um spam. A figura abaixo representa esse cenário por meio de um gráfico com a contagem das amostras de cada classe.
+
+![image](https://user-images.githubusercontent.com/69597971/152691515-abf571a8-c10d-4b5a-b47d-31612a0a73b2.png)
+
+
+
+
+
+
+
+
 
 
 
