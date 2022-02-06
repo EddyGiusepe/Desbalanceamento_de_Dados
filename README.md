@@ -74,11 +74,18 @@ Os menores conjuntos de dados são fornecidos para testar algoritmos de aprendiz
 O objetivo da classificação é prever se o cliente irá subscrever (sim/não) um depósito a prazo (variável y).
 
 
+## Desvantagens na hora de aplicar o balanceamento de Dados
+
+Apesar da vantagem do balanceamento de classes, essas técnicas também apresentam algumas desvantagens:
+
+* Se você duplicar registros aleatórios da classe minoritária para fazer oversampling, isso causará overfitting.
+
+* Ao reduzir a amostragem e remover registros aleatórios da classe majoritária, você corre o risco de perder algumas informações importantes para o algoritmo de aprendizado de máquina usar durante o treinamento e a previsão.
 
 
 
-
-
+Então,
+você precisará experimentar essas técnicas em seu problema específico de aprendizado de máquina para ver o que melhor se adapta ao seu caso.
 
 
 
