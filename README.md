@@ -39,11 +39,11 @@ Como foi comentado acima, existem, à princípio, duas técnicas para lidar com 
 
 ### Undersampling
 
-De forma simples, essa técnica visa remover as amostras da classe majoritária, até que esta se iguale, em número, às amostras da classe minoritária. Os dois tipos principais de ``undersampling`` são:
+De forma simples, essa técnica visa _remover_ as amostras da classe majoritária, até que esta se iguale, em número, às amostras da classe minoritária. Os dois tipos principais de ``undersampling`` são:
 
-**1.1. Random Undersampling:** A escolha dos dados da classe majoritária é feita de forma aleatória.
+* **Random Undersampling:** A escolha dos dados da classe majoritária é feita de forma aleatória.
 
-**1.2. NearMiss:** Elimina-se as amostras "mais próximas" (ou que menos diferem) entre si, de modo a maximizar a variabilidade entre as classes e, também, entre os dados que compõem a própria classe (majoritária). Esse processo é ilustrado pela figura abaixo.
+* **NearMiss:** Elimina-se as amostras "mais próximas" (ou que menos diferem) entre si, de modo a maximizar a variabilidade entre as classes e, também, entre os dados que compõem a própria classe (majoritária). Esse processo é ilustrado pela figura abaixo.
 
 
 
