@@ -75,6 +75,9 @@ De forma simples, essa técnica visa adicionar novas amostras (_sintéticas_) na
 
 
 
+
+
+
 Links de estudo e DataSet:
 
 * [Dados Desbalanceados](https://sigmoidal.ai/como-lidar-com-dados-desbalanceados/)
