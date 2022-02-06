@@ -48,9 +48,16 @@ De forma simples, essa técnica visa _remover_ as amostras da classe majoritári
 ![image](https://user-images.githubusercontent.com/69597971/152694643-e4fc798e-21be-4265-8bdc-987137d275ee.png)
 
 
+## Oversampling
+
+De forma simples, essa técnica visa adicionar novas amostras (_sintéticas_) na classe minoritária, até que se iguale ao número de amostras da classe majoritária. Os dois tipos principais de oversampling são:
+
+* **Random Oversampling:** Os dados da classe minoritária são, aleatoriamente, replicados.
+
+* **SMOTE (Synthetic Minority Over-sampling Technique):** Novas amostras sintéticas são geradas a partir de amostras vizinhas, como demonstrado na figura abaixo (para mais detalhes [click aqui](https://dev.to/charfaouiyounes/resampling-to-properly-handle-imbalanced-datasets-in-machine-learning-4anb)).
 
 
-
+![image](https://user-images.githubusercontent.com/69597971/152694892-3b86eaf1-3bdd-40a5-a996-c1c9e2b46631.png)
 
 
 
