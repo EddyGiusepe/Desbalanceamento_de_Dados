@@ -60,11 +60,18 @@ De forma simples, essa técnica visa adicionar novas amostras (_sintéticas_) na
 ![image](https://user-images.githubusercontent.com/69597971/152694892-3b86eaf1-3bdd-40a5-a996-c1c9e2b46631.png)
 
 
+## Descrição do DataSet: [Bank Marketing](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) (bank-full.csv)
 
+Os Dados do arquivo ``bank-full.csv`` são referentes à campanhas de marketing de uma **_instituição bancária de Portugal_**. As campanhas de marketing eram baseadas em ligações telefônicas. Muitas vezes, era necessário mais de um contato para o mesmo cliente, para saber se cliente desejaria se inscrever em um tipo de programa de depósito bancário (algum tipo de investimento de dinheiro no banco, semelhante a um CDB) ou não. Para mais detalhes sobre estes DataSet, entre no site [UCI - Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
 
+Na realidade existem quatro conjuntos de dados:
+* bank-additional-full.csv com todos os exemplos (41188) e 20 entradas, ordenados por data (de maio de 2008 a novembro de 2010), muito próximos aos dados analisados ​​em [Moro et al., 2014 ]
+* bank-additional.csv com 10% dos exemplos (4119), selecionados aleatoriamente de 1) e 20 entradas.
+* bank-full.csv com todos os exemplos e 17 entradas, ordenadas por data (versão mais antiga deste conjunto de dados com menos entradas).
+* bank.csv com 10% dos exemplos e 17 entradas, selecionadas aleatoriamente de 3 (versão mais antiga deste conjunto de dados com menos entradas).
+Os menores conjuntos de dados são fornecidos para testar algoritmos de aprendizado de máquina computacionalmente mais exigentes (por exemplo, SVM).
 
-
-
+O objetivo da classificação é prever se o cliente irá subscrever (sim/não) um depósito a prazo (variável y).
 
 
 
