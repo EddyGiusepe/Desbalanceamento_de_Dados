@@ -21,10 +21,17 @@ Imagine que você deseja criar um modelo de ML capaz de identificar, por meio de
 
 ![image](https://user-images.githubusercontent.com/69597971/152691515-abf571a8-c10d-4b5a-b47d-31612a0a73b2.png)
 
+Podemos vizualizar, também, num gráfico de Dispersão, assim:
 
+![image](https://user-images.githubusercontent.com/69597971/152691943-011530c3-3349-4b0b-87bc-40fff1bca437.png)
 
+Nesse caso, por ser apresentado ao número muito maior de amostras que não são spam, seu modelo irá ter uma facilidade maior de identificar o que não é um spam. Pelo mesmo motivo, seu modelo terá muito mais dificuldades em identificar o que é um spam, ou mesmo irá ignorar esses casos, o que pode acontecer quando temos uma diferença muito expressiva no número de amostras.
 
+Note o quão grave pode ser esse problema, especialmente, porque em uma aplicação desse tipo, você deve estar mais interessado na classe com o menor número de amostras (_classe minoritária_), e não naquele com mais amostras (_classe majoritária_). A pergunta, então, é: "O que podemos fazer para solucionar esse tipo de problema?". É o que veremos na próxima seção. 
 
+O gráfico a seguir mostra as técnicas empregadas para solucionar este desbalanceamento. Ver o seguinte site para ver estás técnicas: [Undersampling e Oversampling](https://medium.com/data-hackers/como-lidar-com-dados-desbalanceados-em-problemas-de-classifica%C3%A7%C3%A3o-17c4d4357ef9)
+
+![image](https://user-images.githubusercontent.com/69597971/152692275-b4873e13-d7e4-43b5-b640-f850626359f3.png)
 
 
 
